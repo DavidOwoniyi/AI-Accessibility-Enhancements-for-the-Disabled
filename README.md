@@ -15,8 +15,8 @@ To use these programs, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/Accessibility-Enhancement-Programs.git
-   cd Accessibility-Enhancement-Programs
+   [git clone https://github.com/your-username/Accessibility-Enhancement-Programs.git
+   cd Accessibility-Enhancement-Programs](https://github.com/DavidOwoniyi/Accessibility-Enhancements-for-the-Disabled.git)
    ```
 
 2. **Install the required dependencies**:
