@@ -1,7 +1,5 @@
 # **Accessibility Enhancements for the Disabled**
 
-Here's a revised version that encompasses both programs:
-
 Developed an innovative project that leverages AI models and machine learning techniques to recognise and convert sign language into text and speech. This solution is designed to empower individuals with disabilities, enabling them to communicate seamlessly with anyone. This solution includes two key features: a gesture-to-speech program that recognizes and converts sign language into text and speech, and a voice command execution system that allows users to perform various tasks through simple voice commands. Together, these tools empower users to communicate and interact seamlessly with the people & world around them.
 
 1. **Hand Gesture Conversion into Text & Speech**: Converts sign language gestures into text and then into speech, using a trained machine learning model. It's designed for stationary single-hand gestures only(for now).
