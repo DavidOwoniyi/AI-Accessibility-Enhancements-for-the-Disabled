@@ -19,18 +19,10 @@ To use these programs, follow these steps:
    cd Accessibility-Enhancement-Programs
    ```
 
-2. **Create and activate a virtual environment**:
-   ```bash
-   python -m venv myenv
-   source myenv/bin/activate  # On Windows, use `myenv\Scripts\activate`
-   ```
-
-3. **Install the required dependencies**:
+2. **Install the required dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-
-4. **Download the necessary models** (if any) and place them in the appropriate directories as specified in the code comments.
 
 ## **How to Use**
 
