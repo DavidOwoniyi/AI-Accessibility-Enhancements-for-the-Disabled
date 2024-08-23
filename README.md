@@ -30,6 +30,7 @@ To use these programs, follow these steps:
 - Usage:
   - The script prompts you to start capturing images for each gesture by pressing 'r'.
   - Captures 300 images per gesture, which are stored in a directory corresponding to the gesture label.
+  - Move your hands back and forth, closer/farther from the camera and within the camera frame to vary the distances. This is to ensure that gestures can be detected from varying distances.
   - Press 'x' to exit the program at any time.
 
  2. **Data Preprocessing Script (`Create the dataset.py`)**:
@@ -64,33 +65,7 @@ To use these programs, follow these steps:
   - Converts the recognized gestures into text and then into speech.
   - The captured text is played as speech using the `playsound` module.
 
----
 
-### Setup Instructions
-1. **Install Dependencies**:
-   - As specified in the `requirements.txt` file.
-
-2. **Collect Dataset**:
-   - Run the `Collect Images.py` script to capture images for each gesture.
-
-3. **Preprocess Data**:
-   - Run the `Create the dataset.py` script to preprocess the captured images and save the data for training.
-
-4. **Train the Model**:
-   - Run the `Train the model.py` script to train the Random Forest Classifier model using the preprocessed data.
-
-5. **Run Gesture Recognition**:
-   - Use the `Make predictions & detect hand gestures.py` script to test real-time gesture recognition with the trained model.
-
-6. **Convert Gesture to Text and Speech**:
-   - Run the `Convert hand gestures to text and speech.py` script to convert recognized gestures into text and speech.
-
----
-
-### Notes
-- The accuracy of the model depends on the quality and diversity of the dataset. Ensure that you capture clear images for each gesture.
-- Make sure your camera is properly configured and functioning before running the scripts.
-- Adjust the `min_detection_confidence` in the MediaPipe configuration if hand landmarks are not detected reliably.
 
 
 
