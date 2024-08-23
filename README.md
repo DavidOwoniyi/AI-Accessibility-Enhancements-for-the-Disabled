@@ -129,7 +129,8 @@ To use these programs, follow these steps:
 
 ## **License**
 
-This project is licensed under the [MIT License](https://github.com/DavidOwoniyi/AI-Accessibility-Enhancements-for-the-Disabled/tree/main?tab=MIT-1-ov-file)
+This project is licensed under the [MIT License](https://github.com/DavidOwoniyi/AI-Accessibility-Enhancements-for-the-Disabled/tree/main?tab=MIT-1-ov-file).
+
 <br />
 
 ## **Reporting Bugs and Contributing**
