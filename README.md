@@ -39,10 +39,10 @@ To use these programs, follow these steps:
 
 ### **Voice Command Recognition & Execution**
 
-1.	Running the Program:
-	- Execute the program by running the **Speech Recognition & Task Execution.py script**.
+1.	**Running the Program**:
+	- Execute the program by running the **Speech Recognition & Task Execution.py** script.
 
-2.	Voice Commands:
+2.	**Voice Commands**:
 	   - Greeting: Say "Hello" to receive a greeting from the program.
 	   - Ask for Name: Ask "What is your name?" to learn the program's name ("Jarvis").
 	   - Ask About Well-being: Ask "How are you?" or similar phrases to receive a response about the program's state.
