@@ -141,4 +141,4 @@ To use these programs, follow these steps:
 
 ## **Contact**
 
-For any questions or further assistance, please contact me at  [owoniyidavid@yahoo.com](mailto:owoniyidavid@yahoo.com).
+For any questions or further assistance, please contact me at  [owoniyidavid@yahoo.com](mailto:owoniyidavid@yahoo.com) or [![Linkedin Badge](https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social)](https://www.linkedin.com/in/david-owoniyi).
