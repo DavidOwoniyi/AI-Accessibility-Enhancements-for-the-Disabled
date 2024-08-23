@@ -39,9 +39,26 @@ To use these programs, follow these steps:
 
 ### **Voice Command Recognition & Execution**
 
-1. **Run the voice command script**.
-2. **Speak the command** clearly when prompted.
+1.	Running the Program:
+	- Execute the program by running the **Speech Recognition & Task Execution.py script**.
+2.	Voice Commands:
+   - Greeting: Say "Hello" to receive a greeting from the program.
+   - Ask for Name: Ask "What is your name?" to learn the program's name ("Jarvis").
+   - Ask About Well-being: Ask "How are you?" or similar phrases to receive a response about the program's state.
+   - Take a Screenshot: Say "Take a screenshot" or similar phrases to capture a screenshot and save it as screenshot.png.
+   - Open YouTube: Say "Open YouTube" to open the YouTube website in the default web browser.
+   - Read the News: Say "Read the news" or similar phrases to open a news website in the default web browser.
+   - Goodbye: Say "Goodbye" or similar phrases to end the program.
 3. The program will recognize the command and execute the corresponding task.
+
+## **Dependencies**
+- **Python 3.11+**
+- **OpenCV**: For video capture and image processing.
+- **MediaPipe**: For hand gesture detection.
+- **scikit-learn**: For machine learning model creation and training.
+- **gTTS**: For text-to-speech conversion.
+- **playsound 1.2.2**: For audio playback.
+- **speech_recognition**: For voice command recognition.
 
 ## **Limitations**
 
@@ -53,16 +70,6 @@ To use these programs, follow these steps:
   - Requires clear speech and a noise-free environment for optimal performance.
   - Limited to pre-defined command sets(for now).
 
-## **Dependencies**
-
-- **Python 3.11+**
-- **OpenCV**: For video capture and image processing.
-- **MediaPipe**: For hand gesture detection.
-- **scikit-learn**: For machine learning model creation and training.
-- **gTTS**: For text-to-speech conversion.
-- **playsound 1.2.2**: For audio playback.
-- **speech_recognition**: For voice command recognition.
-
 ## **Reporting Bugs and Contributing**
 
 - **Reporting Bugs**:
@@ -71,8 +78,8 @@ To use these programs, follow these steps:
 
 - **Contributing**:
   - Contributions are highly welcome! Fork the repository, make your changes, and submit a pull request.
-  - Ensure your code adheres to the project's coding standards and includes appropriate documentation.
+  - Ensure your code adheres to the good coding standards and includes appropriate documentation.
 
 ## **Contact**
 
-For any questions or further assistance, please contact the me at  [owoniyidavid@yahoo.com](mailto:owoniyidavid@yahoo.com).
+For any questions or further assistance, please contact me at  [owoniyidavid@yahoo.com](mailto:owoniyidavid@yahoo.com).
