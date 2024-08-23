@@ -124,6 +124,7 @@ To use these programs, follow these steps:
 - **Voice Command Program**:
   - Implement voice awakening functionality for the program.
   - Enhance the program to enable intelligent conversations and task executions, regardless of the specific voice command.
+  - Reduce latency of the program.
 
 <br />
 
