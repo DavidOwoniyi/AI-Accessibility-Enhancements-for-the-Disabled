@@ -62,7 +62,7 @@ To use these programs, follow these steps:
 - Purpose: Converts recognized gestures into text and then into speech using Google Text-to-Speech (gTTS).
 - Usage:
   - The script continuously captures frames and recognizes gestures.
-  - Starts/stops capturing a gestures when the '!' gesture is held for 2 seconds.
+  - Starts/stops capturing gestures when the '!' gesture is held for 2 seconds.
   - Converts the recognized gestures into text and then into speech.
   - The captured text is played as speech using the `playsound` module.
 
