@@ -5,7 +5,7 @@ This innovative project leverages AI models and machine learning techniques to r
 This solution includes two key features: a gesture-to-speech program that transforms sign language into text and speech, and a voice command execution system that allows users to perform various tasks using simple voice commands. Together, these tools enable users to communicate and interact effortlessly with both people and the world around them.
 
 ## **Why This Project?**  
-This project was developed to enhance the quality of life for individuals with disabilities by bridging the communication gap between them and non-sign language speakers. By recognizing single-hand, stationary gestures and integrating voice commands, it facilitates easier and more effective interactions, making life simpler and more inclusive for both parties.
+This project was developed to enhance the quality of life for individuals with disabilities by bridging the communication gap between them and non-sign language speakers. By recognizing hand sign language and integrating voice command execution, it facilitates easier and more effective interactions, making life simpler and more inclusive for both parties.
 
 ## **Installation**
 
