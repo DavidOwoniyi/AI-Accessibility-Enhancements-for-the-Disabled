@@ -4,8 +4,12 @@ This innovative project leverages AI models and machine learning techniques to r
 
 This solution includes two key features: a gesture-to-speech program that transforms sign language into text and speech, and a voice command execution system that allows users to perform various tasks using simple voice commands. Together, these tools enable users to communicate and interact effortlessly with both people and the world around them.
 
+<br />
+
 ## **Why This Project?**  
 This project was developed to enhance the quality of life for individuals with disabilities by bridging the communication gap between them and non-sign language speakers. By recognizing hand sign language and integrating voice command execution, it facilitates easier and more effective interactions, making life simpler and more inclusive for both parties.
+
+<br />
 
 ## **Installation**
 
@@ -20,6 +24,8 @@ To use these programs, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
+
+<br />
 
 ## **How to Use**
 
@@ -66,10 +72,7 @@ To use these programs, follow these steps:
   - Converts the recognized gestures into text and then into speech.
   - The captured text is played as speech using the `playsound` module.
 
-
-
-
-
+<br />
 
 ### **Voice Command Recognition & Execution**
 
@@ -85,6 +88,8 @@ To use these programs, follow these steps:
 	   - Read the News: Say "Read the news" or similar phrases to open a news website in the default web browser.
 	   - Goodbye: Say "Goodbye" or similar phrases to end the program.
 
+<br />
+
 ## **Dependencies**
 - **Python 3.11+**
 - **OpenCV**: For video capture and image processing.
@@ -93,6 +98,8 @@ To use these programs, follow these steps:
 - **gTTS**: For text-to-speech conversion.
 - **playsound 1.2.2**: For audio playback.
 - **speech_recognition**: For voice command recognition.
+
+<br />
 
 ## **Limitations**
 
@@ -103,6 +110,8 @@ To use these programs, follow these steps:
 - **Voice Command Program**:
   - Requires clear speech and a noise-free environment for optimal performance.
   - Limited to pre-defined command sets(for now).
+
+<br />
 
 ## **Reporting Bugs and Contributing**
 
