@@ -68,13 +68,13 @@ To use these programs, follow these steps:
 ## **Reporting Bugs and Contributing**
 
 - **Reporting Bugs**:
-  - If you encounter any issues, please report them via the [Issues](https://github.com/your-username/Accessibility-Enhancement-Programs/issues) page on GitHub.
+  - If you encounter any issues, please report them via the [Issues](https://github.com/DavidOwoniyi/Accessibility-Enhancements-for-the-Disabled/issues) page on GitHub.
   - Provide a detailed description of the issue and steps to reproduce it.
 
 - **Contributing**:
-  - Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
+  - Contributions are highly welcome! Fork the repository, make your changes, and submit a pull request.
   - Ensure your code adheres to the project's coding standards and includes appropriate documentation.
 
 ## **Contact**
 
-For any questions or further assistance, please contact the me at [owoniyidavid@yahoo.com](mailto:owoniyidavid@yahoo.com).
+For any questions or further assistance, please contact the me at  [owoniyidavid@yahoo.com](mailto:owoniyidavid@yahoo.com).
