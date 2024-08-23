@@ -13,7 +13,7 @@ To use these programs, follow these steps:
 
 1. **Clone this repository to your local machine**:
    ```bash
-   https://github.com/DavidOwoniyi/Accessibility-Enhancements-for-the-Disabled.git
+   https://github.com/DavidOwoniyi/AI-Accessibility-Enhancements-for-the-Disabled.git
    ```
 
 2. **Install the required dependencies**:
@@ -73,11 +73,11 @@ To use these programs, follow these steps:
 ## **Reporting Bugs and Contributing**
 
 - **Reporting Bugs**:
-  - If you encounter any issues, please report them via the [Issues](https://github.com/DavidOwoniyi/Accessibility-Enhancements-for-the-Disabled/issues) page on GitHub.
+  - If you encounter any issues, please report them via the [Issues](https://github.com/DavidOwoniyi/AI-Accessibility-Enhancements-for-the-Disabled/issues) page on GitHub.
   - Provide a detailed description of the issue and steps to reproduce it.
 
 - **Contributing**:
-  - Contributions are highly welcome! Fork the repository, make your changes, and submit a pull request.
+  - Contributions are highly welcome! Fork this repository, make your changes, and submit a pull request.
   - Ensure your code adheres to the good coding standards and includes appropriate documentation.
 
 ## **Contact**
