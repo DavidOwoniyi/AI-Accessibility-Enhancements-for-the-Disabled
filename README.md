@@ -113,6 +113,20 @@ To use these programs, follow these steps:
 
 <br />
 
+
+## **Future Improvements**
+
+- **Hand Gesture Program**:
+  - Improve sign language detection to support two-handed gestures and motion gestures.
+  - Integrate a GUI for enhanced user experience.
+  - Deploy the application for broader accessibility.
+
+- **Voice Command Program**:
+  - Implement voice awakening functionality for the program.
+  - Enhance the program to enable intelligent conversations and task executions, regardless of the specific voice command.
+
+<br />
+
 ## **Reporting Bugs and Contributing**
 
 - **Reporting Bugs**:
@@ -122,6 +136,8 @@ To use these programs, follow these steps:
 - **Contributing**:
   - Contributions are highly welcome! Fork this repository, make your changes, and submit a pull request.
   - Ensure your code adheres to good coding standards and includes appropriate documentation.
+
+<br />
 
 ## **Contact**
 
