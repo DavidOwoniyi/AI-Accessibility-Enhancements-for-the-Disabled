@@ -83,7 +83,7 @@ To use these programs, follow these steps:
 	   - Greeting: Say "Hello" to receive a greeting from the program.
 	   - Ask for Name: Ask "What is your name?" to learn the program's name ("Jarvis").
 	   - Ask About Well-being: Ask "How are you?" or similar phrases to receive a response about the program's state.
-	   - Take a Screenshot: Say "Take a screenshot" or similar phrases to capture a screenshot and save it as screenshot.png.
+	   - Take a Screenshot: Say "Take a screenshot" or similar phrases to capture a screenshot and save it as `screenshot.png`.
 	   - Open YouTube: Say "Open YouTube" to open the YouTube website in the default web browser.
 	   - Read the News: Say "Read the news" or similar phrases to open a news website in the default web browser.
 	   - Goodbye: Say "Goodbye" or similar phrases to end the program.
@@ -121,7 +121,7 @@ To use these programs, follow these steps:
 
 - **Contributing**:
   - Contributions are highly welcome! Fork this repository, make your changes, and submit a pull request.
-  - Ensure your code adheres to the good coding standards and includes appropriate documentation.
+  - Ensure your code adheres to good coding standards and includes appropriate documentation.
 
 ## **Contact**
 
