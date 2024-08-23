@@ -1,6 +1,6 @@
-# **Accessibility Enhancements for the Disabled**
+# **AI Accessibility Enhancements for the Disabled**
 
-Developed an innovative project that leverages AI models and machine learning techniques to recognise and convert sign language into text and speech. This solution is designed to empower individuals with disabilities, enabling them to communicate seamlessly with anyone. This solution includes two key features: a gesture-to-speech program that recognizes and converts sign language into text and speech, and a voice command execution system that allows users to perform various tasks through simple voice commands. Together, these tools empower users to communicate and interact seamlessly with the people & world around them.
+This innovative project leverages AI models and machine learning techniques to recognize and convert sign language into text and speech, empowering individuals with disabilities to communicate seamlessly with anyone. This solution includes two key features: a gesture-to-speech program that transforms sign language into text and speech, and a voice command execution system that allows users to perform various tasks through simple voice commands. Together, these tools enable users to communicate and interact effortlessly with both people and the world around them.
 
 1. **Hand Gesture Conversion into Text & Speech**: Converts sign language gestures into text and then into speech, using a trained machine learning model. It's designed for stationary single-hand gestures only(for now).
 2. **Voice Command Recognition & Execution**: Recognizes voice commands and executes various tasks, making interaction with technology more accessible.
@@ -13,7 +13,7 @@ This project stands out from other existing solutions due to its simplicity and 
 
 To use these programs, follow these steps:
 
-1. **Clone the repository**:
+1. **Clone this repository to your local machine**:
    ```bash
    https://github.com/DavidOwoniyi/Accessibility-Enhancements-for-the-Disabled.git
    ```
@@ -28,7 +28,7 @@ To use these programs, follow these steps:
 ### **Hand Gesture Conversion into Text & Speech**
 
 1. **Data Collection**:
-   - Run the data collection script to capture images of the hand gestures. Ensure that your hand is stationary during the capture.
+   - Run the data collection script to capture images of the hand gestures. Ensure that you move your hands back and forth and within the frame of the camera during the capture. This is to ensure that each hand gesture can be detect from almost anywhere.
    - Follow the prompts to capture different gestures for each character.
 
 2. **Model Training**:
