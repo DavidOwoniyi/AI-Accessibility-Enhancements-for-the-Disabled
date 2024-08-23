@@ -127,6 +127,12 @@ To use these programs, follow these steps:
 
 <br />
 
+## **Licence**
+
+This project is licenced under the 
+
+<br />
+
 ## **Reporting Bugs and Contributing**
 
 - **Reporting Bugs**:
