@@ -36,7 +36,7 @@ def text_to_speech(text):
     Converts text to speech using Google Text-to-Speech (gTTS) and plays it.
     The speech is saved to a temporary file and deleted after playback.
     """
-    speech = gTTS(text, tld='com.ng', lang='en', slow=False)  # Create speech object
+    speech = gTTS(text, tld='us', lang='en', slow=False)  # Create speech object
     speech_file = 'speech.mp3'  # Define the filename for the audio file
     speech.save(speech_file)  # Save the speech to the file
     playsound('speech.mp3')  # Play the audio file

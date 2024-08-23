@@ -15,7 +15,7 @@ def text_to_speech(text):
         print("No text to convert to speech.")
         return
     # Convert the text to speech using gTTS with Nigerian accent (tld='com.ng')
-    speech = gTTS(text, tld='com.ng', lang='en', slow=False)
+    speech = gTTS(text, tld='us', lang='en', slow=False)
     speech_file = 'speech.mp3'  # Temporary filename for the speech audio
     speech.save(speech_file)  # Save the speech to the file
     playsound(speech_file)  # Play the speech audio
