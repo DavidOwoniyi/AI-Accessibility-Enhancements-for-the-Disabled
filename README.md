@@ -1,13 +1,11 @@
 # **AI Accessibility Enhancements for the Disabled**
 
-This innovative project leverages AI models and machine learning techniques to recognize and convert sign language into text and speech, empowering individuals with disabilities to communicate seamlessly with anyone. This solution includes two key features: a gesture-to-speech program that transforms sign language into text and speech, and a voice command execution system that allows users to perform various tasks using simple voice commands. Together, these tools enable users to communicate and interact effortlessly with both people and the world around them.
+This innovative project leverages AI models and machine learning techniques to recognize and convert sign language into text and speech, empowering individuals with disabilities to communicate seamlessly with anyone. 
 
-1. **Hand Gesture Conversion into Text & Speech**: Converts sign language gestures into text and then into speech, using a trained machine learning model. It's designed for stationary single-hand gestures only(for now).
-2. **Voice Command Recognition & Execution**: Recognizes voice commands and executes various tasks, making interaction with technology more accessible.
+This solution includes two key features: a gesture-to-speech program that transforms sign language into text and speech, and a voice command execution system that allows users to perform various tasks using simple voice commands. Together, these tools enable users to communicate and interact effortlessly with both people and the world around them.
 
-## **Why This Project?**
-
-This project stands out from other existing solutions due to its simplicity and targeted functionality. It focuses on single-hand, stationary gestures and is designed for environments where standard input methods are challenging or impossible. The combination of hand gestures and voice commands offers a versatile tool for individuals with different types of disabilities.
+## **Why This Project?**  
+This project was developed to enhance the quality of life for individuals with disabilities by bridging the communication gap between them and non-sign language speakers. By recognizing single-hand, stationary gestures and integrating voice commands, it facilitates easier and more effective interactions, making life simpler and more inclusive for both parties.
 
 ## **Installation**
 
