@@ -25,17 +25,75 @@ To use these programs, follow these steps:
 
 ### **Hand Gesture Conversion into Text & Speech**
 
-1. **Data Collection**:
-   - Run the data collection script to capture images of the hand gestures. Move your hands back and forth, closer/farther from the camera and within the camera frame, to vary the distances. This is to ensure that each hand gesture can be detected from almost any distance from the camera.
-   - Follow the prompts to capture different gestures for each character.
+ 1. **Dataset Collection Script (`Collect Images.py`)**:
+- Purpose: Captures images of various hand gestures or characters using a webcam and stores them in a structured dataset.
+- Usage:
+  - The script prompts you to start capturing images for each gesture by pressing 'r'.
+  - Captures 300 images per gesture, which are stored in a directory corresponding to the gesture label.
+  - Press 'x' to exit the program at any time.
 
-2. **Model Training**:
-   - Use the provided script to train the machine learning model on the collected data.
-   - The trained model will be saved for later use.
+ 2. **Data Preprocessing Script (`Create the dataset.py`)**:
+- Purpose: Processes the captured images, detects hand landmarks, normalizes the data, and prepares it for training.
+- Usage:
+  - The script reads images from the dataset directory.
+  - Uses MediaPipe to detect hand landmarks and normalizes the coordinates.
+  - Saves the processed data and corresponding labels to a pickle file (`data.pickle`).
 
-3. **Gesture Recognition & Text-to-Speech Conversion**:
-   - Run the recognition script, which captures live video from your webcam.
-   - The program detects gestures, converts them to text, and then to speech using Google Text-to-Speech (gTTS).
+3. **Model Training Script (`Train the model.py`)**:
+- Purpose: Trains a machine learning model (Random Forest Classifier) using the preprocessed data to recognize gestures.
+- Usage:
+  - The script loads the data from `data.pickle`.
+  - Pads the data to ensure uniformity in input length.
+  - Splits the data into training and testing sets.
+  - Trains a Random Forest Classifier model and evaluates its accuracy.
+  - Saves the trained model to a pickle file (`model.p`).
+
+4. **Gesture Recognition Script (`Make predictions & detect hand gestures.py`)**:
+- Purpose: Recognizes hand gestures in real-time using a webcam, based on the trained model.
+- Usage:
+  - The script captures video frames from the webcam.
+  - Detects hand landmarks and uses the trained model to predict the gesture.
+  - Displays the recognized gesture on the video feed along with a bounding box around the hand.
+  - Press 'x' to exit the program.
+
+5. **Gesture to Text and Speech Script (`Convert hand gestures to text and speech.py`)**:
+- Purpose: Converts recognized gestures into text and then into speech using Google Text-to-Speech (gTTS).
+- Usage:
+  - The script continuously captures frames and recognizes gestures.
+  - Captures a sentence when the '!' gesture is held for 2 seconds.
+  - Converts the recognized gestures into text and then into speech.
+  - The captured text is played as speech using the `playsound` module.
+
+---
+
+### Setup Instructions
+1. **Install Dependencies**:
+   - As specified in the `requirements.txt` file.
+
+2. **Collect Dataset**:
+   - Run the `Collect Images.py` script to capture images for each gesture.
+
+3. **Preprocess Data**:
+   - Run the `Create the dataset.py` script to preprocess the captured images and save the data for training.
+
+4. **Train the Model**:
+   - Run the `Train the model.py` script to train the Random Forest Classifier model using the preprocessed data.
+
+5. **Run Gesture Recognition**:
+   - Use the `Make predictions & detect hand gestures.py` script to test real-time gesture recognition with the trained model.
+
+6. **Convert Gesture to Text and Speech**:
+   - Run the `Convert hand gestures to text and speech.py` script to convert recognized gestures into text and speech.
+
+---
+
+### Notes
+- The accuracy of the model depends on the quality and diversity of the dataset. Ensure that you capture clear images for each gesture.
+- Make sure your camera is properly configured and functioning before running the scripts.
+- Adjust the `min_detection_confidence` in the MediaPipe configuration if hand landmarks are not detected reliably.
+
+
+
 
 ### **Voice Command Recognition & Execution**
 
