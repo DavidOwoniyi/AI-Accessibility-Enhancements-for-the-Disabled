@@ -36,7 +36,7 @@ To use these programs, follow these steps:
 	- Usage:
 	  - The script prompts you to start capturing images for each gesture by pressing 'r'.
 	  - Captures 300 images per gesture, which are stored in a directory corresponding to the gesture label.
-	  - Don't forget to capture a gesture for starting the gesture capturing process and another gesture for adding space inbetween words.
+	  - Be sure to capture a gesture for starting the gesture capturing process and another gesture for adding space inbetween words.
 	  - Move your hands back and forth, closer/farther from the camera and within the camera frame to vary the distances. This is to ensure that gestures will be detected from varying distances.
 	  - Press 'x' to exit the program at any time.
 
