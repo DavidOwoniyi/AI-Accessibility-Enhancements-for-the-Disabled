@@ -28,7 +28,7 @@ To use these programs, follow these steps:
 ### **Hand Gesture Conversion into Text & Speech**
 
 1. **Data Collection**:
-   - Run the data collection script to capture images of the hand gestures. Ensure that you move your hands back and forth and within the frame of the camera during the capture. This is to ensure that each hand gesture can be detect from almost anywhere.
+   - Run the data collection script to capture images of the hand gestures. Move your hands back and forth, closer/farther from the camera and within the camera frame, to vary the distances. This is to ensure that each hand gesture can be detected from almost any distance from the camera.
    - Follow the prompts to capture different gestures for each character.
 
 2. **Model Training**:
@@ -45,35 +45,25 @@ To use these programs, follow these steps:
 2. **Speak the command** clearly when prompted.
 3. The program will recognize the command and execute the corresponding task.
 
-### **Limitations**
-
-- **Gesture Conversion**:
-  - Only supports stationary, single-hand gestures.
-  - Cannot recognize two-hand or moving gestures.
-  - Limited to the gestures included in the training data.
-  
-- **Voice Command Recognition**:
-  - Requires a clear and noise-free environment for optimal performance.
-
-### **Dependencies**
-
-- **Python 3.8+**
-- **OpenCV**: For video capture and image processing.
-- **MediaPipe**: For hand gesture detection.
-- **scikit-learn**: For machine learning model creation and training.
-- **gTTS**: For text-to-speech conversion.
-- **playsound**: For audio playback.
-- **speech_recognition**: For voice command recognition.
-
 ## **Limitations**
 
 - **Hand Gesture Program**:
   - Limited to single-hand, stationary gestures.
-  - Cannot handle gestures that involve movement or multiple hands.
+  - Cannot handle gestures that involve movement or two hands(for now).
 
 - **Voice Command Program**:
   - Requires clear speech and a noise-free environment for optimal performance.
-  - Limited to pre-defined command sets.
+  - Limited to pre-defined command sets(for now).
+
+## **Dependencies**
+
+- **Python 3.11+**
+- **OpenCV**: For video capture and image processing.
+- **MediaPipe**: For hand gesture detection.
+- **scikit-learn**: For machine learning model creation and training.
+- **gTTS**: For text-to-speech conversion.
+- **playsound 1.2.2**: For audio playback.
+- **speech_recognition**: For voice command recognition.
 
 ## **Reporting Bugs and Contributing**
 
@@ -87,8 +77,4 @@ To use these programs, follow these steps:
 
 ## **Contact**
 
-For any questions or further assistance, please contact the project maintainer at [your-email@example.com](mailto:your-email@example.com).
-
----
-
-This README file should serve as a comprehensive guide for anyone looking to understand, install, and use your programs. Feel free to adjust the content to fit your specific needs or include additional sections if necessary.
+For any questions or further assistance, please contact the me at [owoniyidavid@yahoo.com](mailto:owoniyidavid@yahoo.com).
