@@ -30,7 +30,8 @@ To use these programs, follow these steps:
 - Usage:
   - The script prompts you to start capturing images for each gesture by pressing 'r'.
   - Captures 300 images per gesture, which are stored in a directory corresponding to the gesture label.
-  - Move your hands back and forth, closer/farther from the camera and within the camera frame to vary the distances. This is to ensure that gestures can be detected from varying distances.
+  - Don't forget to capture a gesture for starting the gesture capturing process and another gesture for adding space inbetween words.
+  - Move your hands back and forth, closer/farther from the camera and within the camera frame to vary the distances. This is to ensure that gestures will be detected from varying distances.
   - Press 'x' to exit the program at any time.
 
  2. **Data Preprocessing Script (`Create the dataset.py`)**:
@@ -61,7 +62,7 @@ To use these programs, follow these steps:
 - Purpose: Converts recognized gestures into text and then into speech using Google Text-to-Speech (gTTS).
 - Usage:
   - The script continuously captures frames and recognizes gestures.
-  - Captures a sentence when the '!' gesture is held for 2 seconds.
+  - Starts/stops capturing a gestures when the '!' gesture is held for 2 seconds.
   - Converts the recognized gestures into text and then into speech.
   - The captured text is played as speech using the `playsound` module.
 
@@ -73,7 +74,7 @@ To use these programs, follow these steps:
 ### **Voice Command Recognition & Execution**
 
 1.	**Running the Program**:
-	- Execute the program by running the **Speech Recognition & Task Execution.py** script.
+	- Execute the program by running the **`Speech Recognition & Task Execution.py`** script.
 
 2.	**Voice Commands**:
 	   - Greeting: Say "Hello" to receive a greeting from the program.
