@@ -94,7 +94,7 @@ To use these programs, follow these steps:
 - **Python 3.11+**
 - **OpenCV**: For video capture and image processing.
 - **MediaPipe**: For hand gesture detection.
-- **scikit-learn**: For machine learning model creation and training.
+- **scikit-learn**: For machine learning model creation, training, and prediction.
 - **gTTS**: For text-to-speech conversion.
 - **playsound 1.2.2**: For audio playback.
 - **speech_recognition**: For voice command recognition.
