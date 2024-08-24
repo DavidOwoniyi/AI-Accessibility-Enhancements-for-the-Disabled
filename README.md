@@ -31,7 +31,8 @@ To use these programs, follow these steps:
 
 ### **Hand Gesture Conversion into Text & Speech**
 
- 1. **Dataset Collection Script (`Collect Images.py`)**:
+**Note**: Locate this project at the [Sign Language Detection & Conversion into text & speech](https://github.com/DavidOwoniyi/AI-Accessibility-Enhancements-for-the-Disabled/tree/main/Sign%20Language%20Detection%20%26%20Conversion%20into%20Text%20%26%20Speech) directory.
+1. **Dataset Collection Script (`Collect Images.py`)**:
 	- Purpose: Captures images of various hand gestures or characters using a webcam and stores them in a structured dataset.
 	- Usage:
 	  - The script prompts you to start capturing images for each gesture by pressing 'r'.
