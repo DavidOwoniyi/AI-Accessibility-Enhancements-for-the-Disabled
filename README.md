@@ -115,4 +115,4 @@ To use these programs, follow these steps:
 
 ## **Contact**
 
-For any questions or further assistance, please contact me at  [owoniyidavid@yahoo.com](mailto:owoniyidavid@yahoo.com).
+For any questions or further assistance, please contact me at [owoniyidavid@yahoo.com](mailto:owoniyidavid@yahoo.com) or on [LinkedIn](https://www.linkedin.com/in/david-owoniyi/).
