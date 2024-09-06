@@ -109,7 +109,7 @@ To use these programs, follow these steps:
 
 - **Contributing**:
   - Contributions are highly welcome! Fork this repository, make your changes, and submit a pull request.
-  - Ensure your code adheres to good coding standards and includes appropriate documentation..
+  - Ensure your code adheres to good coding standards and includes appropriate documentation.
 
 <br />
 
