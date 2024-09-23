@@ -6,6 +6,10 @@ This solution includes two key features: a gesture-to-speech program that transf
 
 <br />
 
+[Click here](https://www.linkedin.com/posts/david-owoniyi_ai-accessibility-aiengineering-activity-7233067262499332096-kgLb?utm_source=share&utm_medium=member_desktop) to see a demonstration of this project on LinkedIn.
+
+<br />
+
 ## **Why This Project?**  
 This project was developed to enhance the quality of life for individuals with disabilities by bridging the communication gap between them and non-sign language speakers. By recognizing hand sign language and integrating voice command execution, it facilitates easier and more effective interactions, making life simpler and more inclusive for both parties.
 
@@ -30,6 +34,8 @@ To use these programs, follow these steps:
 ## **How to Use**
 
 ### **Hand Gesture Conversion into Text & Speech**
+**Note:** Navigate to the  directory for the hand gesture capturing program.
+<br />
 
  1. **Dataset Collection Script (`Collect Images.py`)**:
 	- Purpose: Captures images of various hand gestures or characters using a webcam and stores them in a structured dataset.
@@ -91,7 +97,7 @@ To use these programs, follow these steps:
 <br />
 
 ## **Dependencies**
-- **Python 3.11+**
+- **Python 3.11**
 - **OpenCV**: For video capture and image processing.
 - **MediaPipe**: For hand gesture detection.
 - **scikit-learn**: For machine learning model creation and training.
@@ -102,7 +108,7 @@ To use these programs, follow these steps:
 <br />
 
 ## **License**
-This project is licensed under the [MIT License](https://github.com/DavidOwoniyi/AI-Accessibility-Enhancements-for-the-Disabled?tab=MIT-1-ov-file)
+This project is licensed under the [MIT License](https://github.com/DavidOwoniyi/AI-Accessibility-Enhancements-for-the-Disabled?tab=MIT-1-ov-file).
 
 <br />
 
@@ -120,4 +126,4 @@ This project is licensed under the [MIT License](https://github.com/DavidOwoniyi
 
 ## **Contact**
 
-For any questions or further assistance, please contact me at  or on [LinkedIn](https://www.linkedin.com/in/david-owoniyi/).
+For any questions or further assistance, please contact me at owoniyidavid@yahoo.com or on [LinkedIn](https://www.linkedin.com/in/david-owoniyi/).
