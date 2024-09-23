@@ -97,7 +97,7 @@ To use these programs, follow these steps:
 <br />
 
 ## **Dependencies**
-- **Python 3.11**
+- **Python 3.11**: Programming language.
 - **OpenCV**: For video capture and image processing.
 - **MediaPipe**: For hand gesture detection.
 - **scikit-learn**: For machine learning model creation and training.
