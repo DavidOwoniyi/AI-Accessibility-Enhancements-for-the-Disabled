@@ -34,7 +34,7 @@ To use these programs, follow these steps:
 ## **How to Use**
 
 ### **Hand Gesture Conversion into Text & Speech**
-**Note:** Navigate to the  directory for the hand gesture capturing program.
+**Note:** Navigate to the [Sign Language Detection & Conversion into Text & Speech](https://github.com/DavidOwoniyi/AI-Accessibility-Enhancements-for-the-Disabled/tree/main/Sign%20Language%20Detection%20%26%20Conversion%20into%20Text%20%26%20Speech)  directory for the hand gesture capturing program.
 <br />
 
  1. **Dataset Collection Script (`Collect Images.py`)**:
